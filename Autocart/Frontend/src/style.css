@@ -1,0 +1,69 @@
+.info_title {
+  font-size: 1em;
+  color: grey;
+}
+
+.info_content {
+  font-size: 1.2em;
+  color: black;
+  font-weight: bold;
+}
+
+.header_big {
+  font-size: 1.5em;
+  color: black;
+  font-weight: bold;
+}
+.header_large {
+  font-size: 2em;
+  color: black;
+  font-weight: bold;
+}
+
+.carousel .slide {
+  background-color: silver;
+}
+
+.carousel.carousel-slider .control-arrow {
+  padding: 1em;
+}
+
+.right_center {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translateY(-50%);
+}
+
+.right_bottom {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+.white {
+  color: white;
+}
+
+.ui.secondary.pointing.menu .active.item {
+  border-color: white;
+  color: white;
+}
+
+.ui.secondary.pointing.menu .active.item:hover {
+  border-color: white;
+  color: white;
+}
+
+body ::-webkit-scrollbar-thumb {
+  border-color: white;
+  color: white;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1rem;
+  animation: fadeIn 500ms ease-in-out 1s both;
+  cursor: pointer;
+}
